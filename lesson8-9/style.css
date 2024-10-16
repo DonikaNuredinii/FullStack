@@ -22,3 +22,14 @@ li a :hover{
     background-color: bisque;
     color: white;
 }
+#article{
+    background-color: burlywood;
+
+}
+#h2{
+    background-color: blanchedalmond;
+}
+footer{
+    text-align: center;
+    background-color: antiquewhite;
+}
