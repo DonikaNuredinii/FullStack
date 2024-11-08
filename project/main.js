@@ -32,6 +32,7 @@ function changeImage(){
     var imageHTML = document.getElementById("timeImage");
 
     if(time == wakeuptime){
+        console.log("Morning");
         image = "img/img/morning.gif";
     }
     else if(time == dstime){
@@ -40,12 +41,13 @@ function changeImage(){
     else if(time == sleeptime){
         image = "img/img/night.gif";
     }
-    imageHTML = image;
+    imageHTML.src = image;
 }
 
 function updateClock(){
     var wakeUpTimeSelector = document.getElementById("wakeUpTimeSelector");
     wakeuptime = wakeUpTimeSelector.value;
+    console.log(wakeuptime);
 
     var dsTimeSelector = document.getElementById("dsTimeSelector");
     dstime = dsTimeSelector.value;
