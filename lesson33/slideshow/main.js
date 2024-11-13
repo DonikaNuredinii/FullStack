@@ -23,3 +23,6 @@ function plusSlides(n){
     slideIndex +=n;
     showSlides(slideIndex);
 }
+
+//me ec vet
+setInterval(plusSlides, 3000, 1);
