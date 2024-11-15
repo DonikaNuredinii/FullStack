@@ -2,14 +2,34 @@
 // document.getElementById("myElement").style.display="none";
 
 //jquery
-$('myElement').hide()
+// $('myElement').hide()
 
 //manipulate with html
 // $('#myElement').text("New Text")
 
-$('.btn').click(function(){
-    console.log($('#myElement').text());
+// $('.btn').click(function(){
+//     console.log($('#myElement').text());
 
-    $('#myElement').text('Testing text');
-    $('#myElement').append('<br> Extra text');
-});
+//     $('#myElement').text('Testing text');
+//     $('#myElement').append('<br> Extra text');
+// });
+
+// $('#btn3').click(function(){
+//     $('.hidden').show('slow');
+// });
+
+// $('#btn4').click(function(){
+//     $('.hidden').hide();
+// });
+
+// //kur e bajm click rritet square
+// $('#square').click(function(){
+//     $('#square').animate({
+//         'width' : '200px',
+//         'height' : '200px'
+
+//     })
+
+// })
+
+$('#sort').sortable();
